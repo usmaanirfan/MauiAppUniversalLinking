@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppUniversalLinking.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Button Grid.Row="1"
+                    Text="Login"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    Clicked="OnLoginClicked"
+                    HorizontalOptions="Center"
+                    Margin="5" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
